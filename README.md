@@ -4,12 +4,10 @@ This project is a Selenium-based automation framework built using Java and the T
 ## Tools and Technologies Used:
 1. **Automation Tool**: [Selenium WebDriver](https://www.simplilearn.com/tutorials/selenium-tutorial/what-is-selenium-webdriver)
 2. **Programming Language**: [Java SE 21](https://www.oracle.com/in/java/technologies/downloads/#jdk23-windows)  
-3. **Testing Framework**: [Cucumber BDD](https://mvnrepository.com/artifact/io.cucumber/cucumber-java) **&** [TestNG](https://mvnrepository.com/artifact/io.cucumber/cucumber-testng)  
+3. **Testing Framework**: [TestNG](https://mvnrepository.com/artifact/io.cucumber/cucumber-testng)  
 4. **Build Tool**: [Maven](https://maven.apache.org/)  
 5. **Modular Design**: [POM](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html) (Page Object Model)  
 6. **Logging Framework**: [Log4j](https://testsigma.com/blog/log4j-selenium/) 
-7. **Cross-Browser Testing**: [Hooks](https://toolsqa.com/cucumber/cucumber-hooks/)
-8. **Reporting**: [Allure](https://medium.com/@sonaldwivedi/allure-reporting-in-selenium-using-testng-and-maven-8a3a5ff07856)
 
 ## Prerequisites:
 1.	Java Development Kit (JDK) 8 **or** Higher
