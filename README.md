@@ -1,4 +1,4 @@
-# Selenium with Java - TestNG Framework
+D# Selenium with Java - TestNG Framework
 This project is a Selenium-based automation framework built using Java and the TestNG testing framework. It is designed to enable structured and maintainable test automation with features like test grouping, parameterization, and parallel execution. The framework supports robust and scalable test case development for UI regression and smoke testing across multiple browsers. With the use of TestNG annotations and assertions, it simplifies test execution flow, enhances reporting capabilities, and integrates seamlessly with build tools like Maven and CI/CD pipelines for continuous testing. 
 
 ## Tools and Technologies Used:
