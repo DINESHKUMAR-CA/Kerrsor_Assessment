@@ -4,7 +4,7 @@ This project is a Selenium-based automation framework built using Java and the T
 ## Tools and Technologies Used:
 1. **Automation Tool**: [Selenium WebDriver](https://www.simplilearn.com/tutorials/selenium-tutorial/what-is-selenium-webdriver)
 2. **Programming Language**: [Java SE 21](https://www.oracle.com/in/java/technologies/downloads/#jdk23-windows)  
-3. **Testing Framework**: [TestNG](https://mvnrepository.com/artifact/io.cucumber/cucumber-testng)  
+3. **Testing Framework**: [TestNG](https://mvnrepository.com/artifact/org.testng/testng))  
 4. **Build Tool**: [Maven](https://maven.apache.org/)  
 5. **Modular Design**: [POM](https://maven.apache.org/guides/introduction/introduction-to-the-pom.html) (Page Object Model)  
 6. **Logging Framework**: [Log4j](https://testsigma.com/blog/log4j-selenium/) 
