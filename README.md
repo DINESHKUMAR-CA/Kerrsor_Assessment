@@ -45,7 +45,7 @@ This project is a Selenium-based automation framework built using Java and the T
   <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
-      <version>4.27.0</version>
+      <version>4.33.0</version>
   </dependency>
 
 ## Steps to run on your system
