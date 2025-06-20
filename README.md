@@ -1,4 +1,4 @@
-D# Selenium with Java - TestNG Framework
+# Selenium with Java - TestNG Framework
 This project is a Selenium-based automation framework built using Java and the TestNG testing framework. It is designed to enable structured and maintainable test automation with features like test grouping, parameterization, and parallel execution. The framework supports robust and scalable test case development for UI regression and smoke testing across multiple browsers. With the use of TestNG annotations and assertions, it simplifies test execution flow, enhances reporting capabilities, and integrates seamlessly with build tools like Maven and CI/CD pipelines for continuous testing. 
 
 ## Tools and Technologies Used:
@@ -48,9 +48,6 @@ This project is a Selenium-based automation framework built using Java and the T
       <version>4.27.0</version>
   </dependency>
 
-## Directory Structure
-![Directory Structure](https://github.com/user-attachments/assets/11f85d3e-00ab-4930-84fc-bc24b05e6eda)
-
 ## Steps to run on your system
 **STEP 1: Clone this Repository**
 Open your terminal/command prompt.
@@ -78,27 +75,8 @@ Navigate to the Project Directory
  - To execute all tests
      ```bash
      mvn test
-     
-**STEP 5: Run Specific Tests or Tags**
-- To run specific tests or tags,
-    ```bash
-    mvn test -Dcucumber.options="--tags @TagName" 
 
-**STEP 6: Generate Allure Report** 
-- After the tests are executed, generate and view the Allure report
-    ```bash
-    allure serve target/allure-results
-- The `target/allure-results` directory contains the test results in a format that Allure can read and display.
 
-![Allure Report](https://github.com/user-attachments/assets/589d635d-2bf6-46b3-a589-cc0e54e9906c)
-
-![Allure Report in web](https://github.com/user-attachments/assets/05ab1bea-81dd-4675-8ee2-41775dcaa449)
-
-## Learn Cucumber Foundations
-To get a deeper understanding of Cucumber and its foundations, you can refer to the following YouTube video:
-[Learn Cucumber BDD Framework - Foundation](https://youtu.be/4e9vhX7ZuCw?si=lBfCocMnYC449Ajm)
-
-This video covers the essential concepts and steps for setting up and using the Cucumber framework in your projects. It is a great resource for beginners and for those who want to solidify their knowledge in Cucumber BDD.
 
 
 
