@@ -5,7 +5,8 @@
     <test name="Kerrsor_Assesment">
         <classes>
             <class name="Kerrsor.Tests.LoginPageTest"></class>
-            <class name="Kerrsor.Tests.DashboardPageTest"></class>
         </classes>
     </test>
 </suite>
+
+

@@ -41,20 +41,19 @@ public class LoginPage {
     private WebElement addPatientButton;
 
 
-    public void providingCredentials() throws InterruptedException {
-        wait.until(ExpectedConditions.visibilityOfAllElements(usernameField, passwordField, loginButton));
-        usernameField.clear();
-        usernameField.sendKeys(ConfigReader.getProperty("userName"));
+    public void providingCredentials() {
 
-        passwordField.clear();
-        passwordField.sendKeys(ConfigReader.getProperty("password"));
+            wait.until(ExpectedConditions.visibilityOfAllElements(usernameField, passwordField, loginButton));
+            usernameField.clear();
+            usernameField.sendKeys(ConfigReader.getProperty("userName"));
 
-        loginButton.click();
+            passwordField.clear();
+            passwordField.sendKeys(ConfigReader.getProperty("password"));
 
-        Thread.sleep(5000);
+            loginButton.click();
 
-        wait.until(ExpectedConditions.visibilityOf(addPatientButton));
-        logger.info("✅Successfully logged into the application!");
+            wait.until(ExpectedConditions.visibilityOf(addPatientButton));
+            logger.info("✅Successfully logged into the application!");
 
     }
 }
